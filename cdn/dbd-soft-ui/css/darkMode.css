@@ -6416,3 +6416,37 @@ gr-main-header {
     background-color: rgba(24, 26, 27, 0.8) !important;
 }
 
+.feed-code {
+    background-color: rgb(24, 26, 27);
+}
+.feed {
+    background-color: rgb(36, 39, 41);
+
+}
+.bg-white {
+    background-color: rgb(24, 26, 27);
+}
+.tagnamecolor {
+    color: #b3aca2 !important;
+}
+.fas {
+    color: #b3aca2 !important;
+}
+.tagnamecolor-date {
+    opacity: 0.8
+}
+.gray-icon-bg {
+    background-color: rgb(36, 39, 41) !important;
+}
+.select-theme {
+    background-color: rgb(24, 26, 27) !important;
+}
+.invert-img {
+    filter: invert(0.6);
+}
+.fab {
+    color: #b3aca2 !important;
+}
+.feed-builder-icon {
+    border: 1px solid rgb(60, 65, 67) !important;
+}
