@@ -31,6 +31,52 @@
   --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
 }
+.feed {
+  padding: 8px 20px;
+  margin: 24px -20px;
+  box-shadow: none !important;
+  box-sizing: inherit;
+  background-color: #E7E9EB;
+  border-radius: 5px;
+  padding: 0.01em 16px;
+  margin: 20px 0;
+  display: block;
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12)!important;
+}
+.feed-code {
+  font-size: 15px;
+  border-left: 4px solid #04AA6D;
+}
+.feed-code {
+  margin-top: 16px !important;
+  margin-bottom: 16px !important;
+}
+.feed-code {
+  width: auto;
+  background-color: #fff;
+  padding: 8px 12px;
+  word-wrap: break-word;
+}
+.feed-code, .feed-codespan {
+  font-family: Consolas,Menlo,"courier new",monospace;
+  font-size: 16px;
+}
+
+.feed-btn, .feed-btn:link, .feed-btn:visited {
+  color: #FFFFFF;
+  background-color: #4CAF50;
+}
+
+.feed-example .feed-btn, .feed-example .ws-btn {
+  background-color: #04AA6D!important;
+  border-radius: 5px;
+  font-size: 17px;
+  font-family: 'Source Sans Pro', sans-serif;
+  padding: 6px 18px;
+}
+.feed-margin-bottom {
+  margin-bottom: 16px!important;
+}
 
 *,
 *::before,
@@ -23008,7 +23054,6 @@ html * {
 body {
   font-weight: 400;
   line-height: 1.6;
-  height: 100vh !important;
 }
 
 h1,
@@ -24927,15 +24972,6 @@ pre[class*="language-"] {
 h2#swal2-title {
   padding-top: 1px;
 }
-html {
-  /* To make use of full height of page*/
-  min-height: 100% !important;
-  margin: 0 !important;
-}
-body {
-  min-height: 100% !important;
-  margin: 0 !important;
-}
   /* custom scrollbar */
   ::-webkit-scrollbar {
     width: 20px;
@@ -24956,3 +24992,33 @@ body {
   ::-webkit-scrollbar-thumb:hover {
     background-color: #a8bbbf;
   }
+
+  .command-img {
+    margin-right: 10px; 
+    margin-left: 5px;
+    height: 24px;
+    width: 24px;
+  }
+
+  .feeds-desc {
+    color:rgb(87, 82, 82); 
+    margin: auto 0px;
+    font-size: 95%; 
+    font-family: 'Alatsi'; 
+    overflow: hidden; 
+    text-overflow: ellipsis;
+  }
+
+  .feeds-icon {
+    color: black !important; 
+    font-size: 90%;
+  }
+
+  .feeds-code {
+    display: flex; 
+    border-left: 4px solid #00bfff;
+  }
+
+  .alert-pinkprimary {
+    background-image: linear-gradient(310deg, rgb(97, 32, 162) 0%, rgb(171, 0, 86) 100%);
+}
