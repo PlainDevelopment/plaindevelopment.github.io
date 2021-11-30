@@ -1,12 +1,42 @@
-{
-    "colorscheme": "1.0.0",
-    "footer": "1.0.0",
-    "graph": "1.0.0",
-    "iconsList": "1.0.0",
-    "navbar": "1.0.0",
-    "popup": "1.0.0",
-    "preloader": "1.0.0",
-    "premium": "1.0.0",
-    "secret": "1.0.0",
-    "theme": "1.0.0"   
-}
+[
+      {
+        "name": "colorscheme",
+        "version": "1.0.0"
+      },
+      {
+        "name": "footer",
+        "version": "1.0.0"
+      },
+      {
+        "name": "graph",
+        "version": "1.0.0"
+      },
+      {
+        "name": "iconsList",
+        "version": "1.0.0"
+      },
+      {
+        "name": "navbar",
+        "version": "1.0.0"
+      },
+      {
+        "name": "popup",
+        "version": "1.0.0"
+      },
+      {
+        "name": "preloader",
+        "version": "1.0.0"
+      },
+      {
+        "name": "premium",
+        "version": "1.0.0"
+      },
+      {
+        "name": "secret",
+        "version": "1.0.0"
+      },
+      {
+        "name": "theme",
+        "version": "1.0.0"
+      }      
+  ]
