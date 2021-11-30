@@ -1,0 +1,42 @@
+[
+      {
+        "name": "colorscheme",
+        "version": "1.0.0"
+      },
+      {
+        "name": "footer",
+        "version": "1.0.0"
+      },
+      {
+        "name": "graph",
+        "version": "1.0.0"
+      },
+      {
+        "name": "iconsList",
+        "version": "1.0.0"
+      },
+      {
+        "name": "navbar",
+        "version": "1.0.0"
+      },
+      {
+        "name": "popup",
+        "version": "1.0.0"
+      },
+      {
+        "name": "preloader",
+        "version": "1.0.0"
+      },
+      {
+        "name": "premium",
+        "version": "1.0.0"
+      },
+      {
+        "name": "secret",
+        "version": "1.0.0"
+      },
+      {
+        "name": "theme",
+        "version": "1.0.0"
+      }      
+  ]
