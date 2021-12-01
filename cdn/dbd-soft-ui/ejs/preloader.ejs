@@ -5,6 +5,12 @@
 <title>
   <%=themeConfig.websiteName%> - Dashboard
 </title>
+<% if(req.session.user) { %>
+<script>
+let userID = '<%-req.session.user.id%>';
+let tag = '<%-req.session.user.tag%>';
+</script>
+<%}%>
 <!--     Fonts and icons     -->
 <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet" />
 <link href='https://fonts.googleapis.com/css?family=Alatsi' rel='stylesheet'>
