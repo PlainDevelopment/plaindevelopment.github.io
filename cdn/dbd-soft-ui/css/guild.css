@@ -106,3 +106,65 @@ h4 {
     border-radius: 0;
     border-bottom: 5px solid #101112;
 }
+#container {
+  display: flex;
+  /* establish flex container */
+  flex-direction: row;
+  /* default value; can be omitted */
+  flex-wrap: nowrap;
+  /* default value; can be omitted */
+  justify-content: space-between;
+  overflow-x: scroll;
+}
+
+.comlumn {
+  width: auto;
+  overflow-y: hidden;
+}
+.form-control {
+  width: 99.3% !important;
+  border: solid !important;
+  border-width: 1.9px !important;
+  border-color: #c4c2c3 !important;
+}
+.nav-tabs .nav-link {
+  color: gray;
+  border: 0;
+  border-bottom: 0px solid;
+}
+span.select2-selection {
+  border: solid !important;
+  border-width: 1.9px !important;
+  border-color: #383835 !important;
+  border-radius: 0.5rem !important;
+}
+
+textarea.col-md-12 {
+  border: solid !important;
+  border-radius: 0.5rem !important;
+  border-width: 1.9px !important;
+  border-color: #383835 !important;
+  background: white;
+}
+
+select {
+  border: solid !important;
+  border-radius: 0.5rem !important;
+  border-width: 1.9px !important;
+  border-color: #383835 !important;
+}
+
+.checkbox-switch {
+  transform: scale(2.5);
+  background: white;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+.width-100 {
+  width: 100%;
+}
+
+.border-radius-lg {
+  border-radius: 0.75rem !important;
+}
