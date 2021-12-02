@@ -1,4 +1,5 @@
 <%
+const data = themeConfig.index.graph.getData();
 let currentScheme = themeConfig.colorScheme;
 let colone;
 let coltwo;
@@ -62,7 +63,7 @@ let gradtwo;
           borderRadius: 4,
           borderSkipped: false,
           backgroundColor: "#fff",
-          data: <%- JSON.stringify(themeConfig.index.graph.data)%>,
+          data: <%- JSON.stringify(data)%>,
           maxBarThickness: 6
         }, ],
       },
@@ -135,7 +136,7 @@ let gradtwo;
             borderWidth: 3,
             backgroundColor: gradientStroke1,
             fill: true,
-            data: <%- JSON.stringify(themeConfig.index.graph.data)%>,
+            data: <%- JSON.stringify(data)%>,
             maxBarThickness: 6
 
           },
