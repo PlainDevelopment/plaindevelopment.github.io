@@ -5079,11 +5079,6 @@ a {
 .text-gradient {
     -webkit-text-fill-color: transparent;
 }
-.text-gradient.text-primary {
-    background-image: linear-gradient(310deg,
-    rgb(97, 32, 162),
-    rgb(204, 0, 102));
-}
 .text-gradient.text-info {
     background-image: linear-gradient(310deg,
     rgb(0, 41, 184),
