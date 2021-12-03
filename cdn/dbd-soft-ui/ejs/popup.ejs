@@ -15,9 +15,7 @@
               <h5><%-subtitle%></h5>
               <%if(guild){%>
                 <%errors.forEach(e=>{%><%=e.split('%is%')[0]%>: <%=e.split('%is%')[1]%> <!--(id: <%=e.split('%is%')[2]%>)--><br> <%})%>
-              <%} else {
-                <%-description%>
-              } %>
+              <%} %>
             </div>
             <div class="modal-footer">
               <button type="button" class="btn bg-gradient-primary" data-bs-dismiss="modal" onclick="resetURL()">Close</button>
