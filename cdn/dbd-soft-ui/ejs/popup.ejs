@@ -13,7 +13,7 @@
             </div>
             <div class="modal-body">
               <h5><%-subtitle%></h5>
-              <%- `${now}`%>
+              <%errors.forEach(e=>{%><%=e.split('%is%')[0]%>: <%=e.split('%is%')[1]%> <!--(id: <%=e.split('%is%')[2]%>)--><br> <%})%>
             </div>
             <div class="modal-footer">
               <button type="button" class="btn bg-gradient-primary" data-bs-dismiss="modal" onclick="resetURL()">Close</button>
