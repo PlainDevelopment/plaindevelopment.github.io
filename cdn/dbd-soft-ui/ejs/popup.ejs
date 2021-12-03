@@ -1,7 +1,4 @@
 <% 
-  if(now == "guild");
-  let Test = `<%errors.forEach(e=>{%><%=e.split('%is%')[0]%>: <%=e.split('%is%')[1]%> <!--(id: <%=e.split('%is%')[2]%>)--><br> <%})%>`;
-  let description = Test;
 %>
 
 <div class="row">
@@ -18,7 +15,7 @@
             </div>
             <div class="modal-body">
               <h5><%-subtitle%></h5>
-              <%- `${description}`%>
+              <%- description%>
             </div>
             <div class="modal-footer">
               <button type="button" class="btn bg-gradient-primary" data-bs-dismiss="modal" onclick="resetURL()">Close</button>
