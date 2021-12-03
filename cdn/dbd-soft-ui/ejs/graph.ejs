@@ -57,7 +57,7 @@ let gradtwo;
       data: {
         labels: <%- JSON.stringify(themeConfig.index.graph.label)%>,
         datasets: [{
-          label: "Sales",
+          label: "<%= themeConfig.index.graph.tag%>",
           tension: 0.4,
           borderWidth: 0,
           borderRadius: 4,
@@ -128,7 +128,7 @@ let gradtwo;
       data: {
         labels: <%- JSON.stringify(themeConfig.index.graph.label)%>,
         datasets: [{
-            label: "Mobile apps",
+            label: "<%= themeConfig.index.graph.tag%>",
             tension: 0.4,
             borderWidth: 0,
             pointRadius: 0,
