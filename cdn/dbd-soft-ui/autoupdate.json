@@ -21,12 +21,12 @@
       },
       {
         "name": "navbar",
-        "version": "1.0.3",
+        "version": "1.0.0",
         "type": "partial"
       },
       {
         "name": "popup",
-        "version": "1.1.1",
+        "version": "1.1.2",
         "type": "partial"
       },
       {
