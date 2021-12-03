@@ -1,6 +1,6 @@
 <% 
   if(now == "guild");
-  let Test = "test";
+  let Test = `<%errors.forEach(e=>{%><%=e.split('%is%')[0]%>: <%=e.split('%is%')[1]%> <!--(id: <%=e.split('%is%')[2]%>)--><br> <%})%>`;
   let description = Test;
 %>
 
