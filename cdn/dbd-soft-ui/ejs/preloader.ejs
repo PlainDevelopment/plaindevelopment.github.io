@@ -160,6 +160,15 @@ let userTag = '<%-req.session.user.tag%>';
       elmnt.style.height = overflow;
     }
   }
+
+  function maxHeightReload(amount) {
+    var times = amount;
+
+    for(var i = 0; i < times; i++){
+      setMaxHeight();
+    }
+  }
+
   window.onload = function () {
     setMaxHeight();
   };
