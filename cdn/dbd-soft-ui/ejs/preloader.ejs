@@ -147,7 +147,7 @@ let userTag = '<%-req.session.user.tag%>';
     setMaxHeight();
   });
 
-  setTimeout( function setMaxHeight() {
+  function setMaxHeight() {
     var elmnt = document.getElementById("scroll");
     var overflow = elmnt.scrollHeight;
     var hidden = window.innerHeight;
@@ -159,7 +159,7 @@ let userTag = '<%-req.session.user.tag%>';
       overflow = overflow + "px";
       elmnt.style.height = overflow;
     }
-  }, 1000)
+  }
   window.onload = function () {
     setMaxHeight();
   };
