@@ -161,14 +161,6 @@ let userTag = '<%-req.session.user.tag%>';
     }
   }
 
-  function maxHeightReload(amount) {
-    var times = amount;
-
-    for(var i = 0; i < times; i++){
-      setMaxHeight();
-    }
-  }
-
   window.onload = function () {
     setMaxHeight();
   };
