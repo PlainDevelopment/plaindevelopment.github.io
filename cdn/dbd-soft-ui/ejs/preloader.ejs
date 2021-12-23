@@ -39,6 +39,40 @@ let userTag = '<%-req.session.user.tag%>';
 <link href="https://cdn.jsdelivr.net/npm/@sweetalert2/theme-dark@4/dark.css" rel="stylesheet">
 <link href="./css/jquery-ui.css" rel="stylesheet" />
 <%- include('colorscheme.ejs') %>
+<style>
+  .preloader {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100vh;
+    z-index: 99999999;
+    background-image: url('https://imgr.search.brave.com/13gWrE6Jc0vyWsePxMNDFi5AfU1DyaQUcMBZSlXzU1w/fit/800/600/ce/1/aHR0cHM6Ly9naWZp/bWFnZS5uZXQvd3At/Y29udGVudC91cGxv/YWRzLzIwMTgvMDYv/dHJhbnNwYXJlbnQt/Z2lmLTEzLmdpZg.gif');
+    /* your icon gif file path */
+    background-repeat: no-repeat;
+    background-color: #FFF;
+    background-position: center;
+  }
+
+  #scroll {
+    height: 100% !important;
+    overflow: hidden !important;
+  }
+</style>
+<script>
+  function preloaderFadeOutInit() {
+    $('.preloader').fadeOut('slow');
+    $('body').attr('id', '');
+  }
+  // Window load function
+  jQuery(window).on('load', function () {
+    (function ($) {
+      preloaderFadeOutInit();
+    })(jQuery);
+  });
+</script>
 <script src="https://kit.fontawesome.com/5c57f03f9b.js" crossorigin="anonymous"></script>
 <!--   Core JS Files   -->
 <script src="./js/custom.js"></script>
@@ -165,3 +199,4 @@ let userTag = '<%-req.session.user.tag%>';
     setMaxHeight();
   };
 </script>
+
