@@ -31,6 +31,14 @@
   --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
 }
+.input-group .form-control:focus {
+  /* border: none; */
+  border-right-color: rgba(0,0,0,0) !important;
+  border-left-color: rgba(0,0,0,0) !important;
+  border-left-color: rgba(0,0,0,0) !important;
+  border-right-color: rgba(0,0,0,0) !important;
+  }
+
 .feed {
   padding: 8px 20px;
   margin: 24px -20px;
