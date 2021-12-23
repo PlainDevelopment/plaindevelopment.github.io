@@ -19,6 +19,10 @@ _______|_______/__/ ____ \__\__|___\__\__|___\__\____
                 https://darkreader.org
 */
 
+.preloader {
+    background-color: rgb(27 30 31) !important;
+  }
+
 /*! Dark reader generated CSS | Licensed under MIT https://github.com/darkreader/darkreader/blob/master/LICENSE */
 
 /* User-Agent Style */
