@@ -26,18 +26,18 @@ let userTag = '<%-req.session.user.tag%>';
 <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet" />
 <link href='https://fonts.googleapis.com/css?family=Alatsi' rel='stylesheet'>
 <!-- Nucleo Icons -->
-<link href="./css/nucleo-icons.css" rel="stylesheet" />
-<link href="./css/nucleo-svg.css" rel="stylesheet" />
+<link href="/css/nucleo-icons.css" rel="stylesheet" />
+<link href="/css/nucleo-svg.css" rel="stylesheet" />
 <!-- Font Awesome Icons -->
-<script src="./js/jquery.min.js"></script>
+<script src="/js/jquery.min.js"></script>
 <script src="https://kit.fontawesome.com/42d5adcbca.js" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/jquery.skeleton.loader@1.2.0/dist/jquery.scheletrone.min.js"></script>
-<link href="./css/nucleo-svg.css" rel="stylesheet" />
+<link href="/css/nucleo-svg.css" rel="stylesheet" />
 <!-- CSS Files -->
-<%if(now == 'manage'){%><link href="https://plaindevelopment.github.io/cdn/dbd-soft-ui/css/guild.css" rel="stylesheet" /><%}%>
-<link id="pagestyle" href="https://plaindevelopment.github.io/cdn/dbd-soft-ui/css/soft-ui-dashboard.css" rel="stylesheet" />
+<%if(now == 'manage'){%><link href="https://plaindevelopment.github.io/adn/dbd-soft-ui/css/guild.css" rel="stylesheet" /><%}%>
+<link id="pagestyle" href="https://plaindevelopment.github.io/adn/dbd-soft-ui/css/soft-ui-dashboard.css" rel="stylesheet" />
 <link href="https://cdn.jsdelivr.net/npm/@sweetalert2/theme-dark@4/dark.css" rel="stylesheet">
-<link href="./css/jquery-ui.css" rel="stylesheet" />
+<link href="/css/jquery-ui.css" rel="stylesheet" />
 <%- include('colorscheme.ejs') %>
 <style>
   .preloader {
@@ -79,8 +79,8 @@ let userTag = '<%-req.session.user.tag%>';
 <script src="./js/jquery-ui.js"></script>
 <script src="./js/core/popper.min.js"></script>
 <script src="./js/core/bootstrap.min.js"></script>
-<script src="./js/plugins/perfect-scrollbar.min.js"></script>
-<script src="./js/plugins/smooth-scrollbar.min.js"></script>
+<script src="/js/plugins/perfect-scrollbar.min.js"></script>
+<script src="/js/plugins/smooth-scrollbar.min.js"></script>
 <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet" />
 <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
 <script>
@@ -100,7 +100,7 @@ let userTag = '<%-req.session.user.tag%>';
     Scrollbar.init(document.querySelector('#sidenav-scrollbar'), options);
   }
 </script>
-<script src="./js/plugins/chartjs.min.js"></script>
+<script src="/js/plugins/chartjs.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 <%- include('theme.ejs') %>
 <%- include('secret.ejs') %>
@@ -111,14 +111,14 @@ let userTag = '<%-req.session.user.tag%>';
     if(!selectedTheme) {
       var link = document.createElement('link');
       link.setAttribute('rel', 'stylesheet');
-      link.setAttribute('href', 'https://plaindevelopment.github.io/cdn/dbd-soft-ui/css/darkMode.css');
+      link.setAttribute('href', 'https://plaindevelopment.github.io/adn/dbd-soft-ui/css/darkMode.css');
       link.setAttribute('id', 'darkTheme');
       document.head.appendChild(link);
       document.cookie = "selectedTheme=dark; expires=Thu, 01 Dec 2022 00:00:00 UTC; path=/;";
     } else if(selectedTheme !== "light") {
       var link = document.createElement('link');
       link.setAttribute('rel', 'stylesheet');
-      link.setAttribute('href', 'https://plaindevelopment.github.io/cdn/dbd-soft-ui/css/darkMode.css');
+      link.setAttribute('href', 'https://plaindevelopment.github.io/adn/dbd-soft-ui/css/darkMode.css');
       link.setAttribute('id', 'darkTheme');
       document.head.appendChild(link);
       document.cookie = "selectedTheme=dark; expires=Thu, 01 Dec 2022 00:00:00 UTC; path=/;";
@@ -128,7 +128,7 @@ let userTag = '<%-req.session.user.tag%>';
 
     var link = document.createElement('link');
     link.setAttribute('rel', 'stylesheet');
-    link.setAttribute('href', 'https://plaindevelopment.github.io/cdn/dbd-soft-ui/css/darkMode.css');
+    link.setAttribute('href', 'https://plaindevelopment.github.io/adn/dbd-soft-ui/css/darkMode.css');
     link.setAttribute('id', 'darkTheme');
     document.head.appendChild(link);
   }
